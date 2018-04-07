@@ -1,0 +1,6 @@
+framework module Pods_MoneyBee {
+  umbrella header "Pods-MoneyBee-umbrella.h"
+
+  export *
+  module * { export * }
+}

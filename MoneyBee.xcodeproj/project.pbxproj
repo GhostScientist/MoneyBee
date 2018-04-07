@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881D9E753FC0D787574D0745 /* Pods_MoneyBee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DB782BC528F8418BCC9335 /* Pods_MoneyBee.framework */; };
 		D300B6E6207817EC00A311C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300B6E5207817EC00A311C1 /* AppDelegate.swift */; };
-		D300B6E8207817EC00A311C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300B6E7207817EC00A311C1 /* ViewController.swift */; };
+		D300B6E8207817EC00A311C1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300B6E7207817EC00A311C1 /* WelcomeViewController.swift */; };
 		D300B6EB207817EC00A311C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D300B6E9207817EC00A311C1 /* Main.storyboard */; };
 		D300B6ED207817EC00A311C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D300B6EC207817EC00A311C1 /* Assets.xcassets */; };
 		D300B6F0207817EC00A311C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D300B6EE207817EC00A311C1 /* LaunchScreen.storyboard */; };
+		D300B6FF207826B200A311C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300B6FE207826B200A311C1 /* LoginViewController.swift */; };
+		D300B701207826CC00A311C1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300B700207826CC00A311C1 /* RegisterViewController.swift */; };
+		D300B703207830B100A311C1 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300B702207830B100A311C1 /* SuccessViewController.swift */; };
+		D38D10912078D4280098C92F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D38D10902078D4280098C92F /* GoogleService-Info.plist */; };
+		D38D10932078D6A10098C92F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D10922078D6A10098C92F /* SwipeTableViewController.swift */; };
+		D38D10952078D6DD0098C92F /* DailySpendingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D10942078D6DD0098C92F /* DailySpendingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A8489E71146D358885BEEB8 /* Pods-MoneyBee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyBee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyBee/Pods-MoneyBee.debug.xcconfig"; sourceTree = "<group>"; };
+		79DB782BC528F8418BCC9335 /* Pods_MoneyBee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyBee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9228D2993069521A222C94C /* Pods-MoneyBee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyBee.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyBee/Pods-MoneyBee.release.xcconfig"; sourceTree = "<group>"; };
 		D300B6E2207817EC00A311C1 /* MoneyBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D300B6E5207817EC00A311C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D300B6E7207817EC00A311C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D300B6E7207817EC00A311C1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D300B6EA207817EC00A311C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D300B6EC207817EC00A311C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D300B6EF207817EC00A311C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D300B6F1207817EC00A311C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D300B6FE207826B200A311C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D300B700207826CC00A311C1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D300B702207830B100A311C1 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		D38D10902078D4280098C92F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D38D10922078D6A10098C92F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		D38D10942078D6DD0098C92F /* DailySpendingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySpendingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881D9E753FC0D787574D0745 /* Pods_MoneyBee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA09FC2C41E0838D78AF7863 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79DB782BC528F8418BCC9335 /* Pods_MoneyBee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D300B6D9207817EC00A311C1 = {
 			isa = PBXGroup;
 			children = (
 				D300B6E4207817EC00A311C1 /* MoneyBee */,
 				D300B6E3207817EC00A311C1 /* Products */,
+				E3FE78A8C84A3173BE0A41E3 /* Pods */,
+				CA09FC2C41E0838D78AF7863 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,53 @@
 		D300B6E4207817EC00A311C1 /* MoneyBee */ = {
 			isa = PBXGroup;
 			children = (
-				D300B6E5207817EC00A311C1 /* AppDelegate.swift */,
-				D300B6E7207817EC00A311C1 /* ViewController.swift */,
-				D300B6E9207817EC00A311C1 /* Main.storyboard */,
+				D300B6FB20781C7100A311C1 /* Model */,
+				D300B6FA20781C6700A311C1 /* Controllers */,
+				D300B6F920781C5900A311C1 /* Views */,
 				D300B6EC207817EC00A311C1 /* Assets.xcassets */,
 				D300B6EE207817EC00A311C1 /* LaunchScreen.storyboard */,
 				D300B6F1207817EC00A311C1 /* Info.plist */,
+				D38D10902078D4280098C92F /* GoogleService-Info.plist */,
 			);
 			path = MoneyBee;
+			sourceTree = "<group>";
+		};
+		D300B6F920781C5900A311C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D300B6E9207817EC00A311C1 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D300B6FA20781C6700A311C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D300B6E5207817EC00A311C1 /* AppDelegate.swift */,
+				D300B6E7207817EC00A311C1 /* WelcomeViewController.swift */,
+				D300B6FE207826B200A311C1 /* LoginViewController.swift */,
+				D300B700207826CC00A311C1 /* RegisterViewController.swift */,
+				D300B702207830B100A311C1 /* SuccessViewController.swift */,
+				D38D10922078D6A10098C92F /* SwipeTableViewController.swift */,
+				D38D10942078D6DD0098C92F /* DailySpendingTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D300B6FB20781C7100A311C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3FE78A8C84A3173BE0A41E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A8489E71146D358885BEEB8 /* Pods-MoneyBee.debug.xcconfig */,
+				A9228D2993069521A222C94C /* Pods-MoneyBee.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D300B6F4207817EC00A311C1 /* Build configuration list for PBXNativeTarget "MoneyBee" */;
 			buildPhases = (
+				CEE8F60C70E168CB0B52160B /* [CP] Check Pods Manifest.lock */,
 				D300B6DE207817EC00A311C1 /* Sources */,
 				D300B6DF207817EC00A311C1 /* Frameworks */,
 				D300B6E0207817EC00A311C1 /* Resources */,
+				E3A500C39F7660FA8F1688D8 /* [CP] Embed Pods Frameworks */,
+				921FA79C60032E3120FFF569 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D300B6F0207817EC00A311C1 /* LaunchScreen.storyboard in Resources */,
+				D38D10912078D4280098C92F /* GoogleService-Info.plist in Resources */,
 				D300B6ED207817EC00A311C1 /* Assets.xcassets in Resources */,
 				D300B6EB207817EC00A311C1 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +201,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		921FA79C60032E3120FFF569 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyBee/Pods-MoneyBee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE8F60C70E168CB0B52160B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyBee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A500C39F7660FA8F1688D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoneyBee/Pods-MoneyBee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyBee/Pods-MoneyBee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D300B6DE207817EC00A311C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D300B6E8207817EC00A311C1 /* ViewController.swift in Sources */,
+				D300B6FF207826B200A311C1 /* LoginViewController.swift in Sources */,
+				D300B6E8207817EC00A311C1 /* WelcomeViewController.swift in Sources */,
 				D300B6E6207817EC00A311C1 /* AppDelegate.swift in Sources */,
+				D38D10932078D6A10098C92F /* SwipeTableViewController.swift in Sources */,
+				D38D10952078D6DD0098C92F /* DailySpendingTableViewController.swift in Sources */,
+				D300B703207830B100A311C1 /* SuccessViewController.swift in Sources */,
+				D300B701207826CC00A311C1 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +409,7 @@
 		};
 		D300B6F5207817EC00A311C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8489E71146D358885BEEB8 /* Pods-MoneyBee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -281,12 +419,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theghost.MoneyBee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D300B6F6207817EC00A311C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9228D2993069521A222C94C /* Pods-MoneyBee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theghost.MoneyBee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
