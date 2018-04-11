@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import ChameleonFramework
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -21,6 +21,9 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         print("login vc reached")
         setupUI()
+        emailField.delegate = self
+        passwordField.delegate = self
+        
         // Do any additional setup after loading the view.
     }
     
@@ -47,6 +50,11 @@ class LoginViewController: UIViewController {
             }
             
         }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     /*
